@@ -1,0 +1,107 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/bijitnath/Downloads/ASP.NET6_WebAPI-main/ASP.NET_WebAPI6/ASP.NET_WebAPI6.csproj": {}
+  },
+  "projects": {
+    "/Users/bijitnath/Downloads/ASP.NET6_WebAPI-main/ASP.NET_WebAPI6/ASP.NET_WebAPI6.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bijitnath/Downloads/ASP.NET6_WebAPI-main/ASP.NET_WebAPI6/ASP.NET_WebAPI6.csproj",
+        "projectName": "ASP.NET_WebAPI6",
+        "projectPath": "/Users/bijitnath/Downloads/ASP.NET6_WebAPI-main/ASP.NET_WebAPI6/ASP.NET_WebAPI6.csproj",
+        "packagesPath": "/Users/bijitnath/.nuget/packages/",
+        "outputPath": "/Users/bijitnath/Downloads/ASP.NET6_WebAPI-main/ASP.NET_WebAPI6/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bijitnath/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.304/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Be.EntityFramework.SqlServer.Extensions": {
+              "target": "Package",
+              "version": "[1.19.1014.1, )"
+            },
+            "FlexLabs.EntityFrameworkCore.Upsert": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "System.Security.Cryptography.X509Certificates": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
